@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.listeners.CustomListeners" />
+	</listeners>
+
+	<test name="Test">
+		<classes>
+			<class name="com.testcases.BankManagerLogin" />
+		</classes>
+	</test>
+	
+	<test name="AddCstmerTest">
+		<classes>
+			<class name="com.testcases.AddCustmerTest" />
+		</classes>
+	</test>
+	<test name="OpenAccountTest">
+		<classes>
+			<class name="com.testcases.OpenAccountTest" />
+		</classes>
+	</test>
+	
+	<test name="SearchCustomerTest">
+		<classes>
+			<class name="com.testcases.SearchCustomers" />
+		</classes>
+	</test>
+	<!-- Test -->
+</suite> <!-- Suite -->
