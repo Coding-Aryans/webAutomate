@@ -31,7 +31,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseClass {
 
 	
-	
+	//this is my base class
 	public static WebDriver driver;
 	public static Logger log=Logger.getLogger("devpinoyLogger");
 	public static Properties OR=new Properties();
